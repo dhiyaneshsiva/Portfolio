@@ -350,7 +350,7 @@ section .title::after{
     background: var(--color);
 }
 .skills-content .left .html1::before{
-    width: 95%;
+    width: 100%;
 }
 .skills-content .left .css1::before{
     width: 92%;
@@ -359,7 +359,7 @@ section .title::after{
     width: 90%;
 }
 .skills-content .left .bootstrap1::before{
-    width: 95%;
+    width: 100%;
 }
 .skills-content .left .mysql1::before{
     width: 70%;
@@ -411,7 +411,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 70%;
+    width: 95%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
