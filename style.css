@@ -419,7 +419,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "How's my work!";
+    content: "Click to Open";
 }
 .teams .carousel .card{
     background: #222;
@@ -428,6 +428,11 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    min-height: 50vh;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .teams .carousel .card:hover{
     background: var(--color);
